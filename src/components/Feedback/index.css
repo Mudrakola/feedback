@@ -1,0 +1,77 @@
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+}
+.feedback {
+  color: #0f172a;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+}
+.emoji-image {
+  height: 60px;
+  padding-top: 10px;
+}
+
+.emoji-name {
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-left: 0px;
+  width: 90%;
+}
+
+.emoji-container {
+  text-align: center;
+}
+
+.thank-you-para {
+  font-family: 'Roboto';
+  font-size: 23px;
+  color: #0f172a;
+  font-weight: bold;
+}
+.feedback-reply {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #1e293b;
+  width: 500px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 575px) {
+  .card {
+    width: 90%;
+  }
+  .feedback {
+    font-size: 16px;
+    width: 200px;
+  }
+}
